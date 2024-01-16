@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3273a8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+li a:hover {
+  background-color: #3264a8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Cor de fundo do conteúdo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  border-radius: 8px; /* Cantos arredondados */
+  margin-top: 20px;
+}
+
+.profile-image {
+  float: left;
+  margin-right: 10px;
+}
+
+.logo {
+  float: left;
+  margin-right: 10px;
+}
+
+.logo img {
+  width: 50px; /* Ajuste conforme necessário */
+  border-radius: 50%; /* Adiciona borda arredondada */
+}
+
+.profile-image img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+h2 {
+text-align: center;
+}
+
+.container h2 {
+color: #333;
+}
+
+.centered-links {
+margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
