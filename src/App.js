@@ -19,7 +19,7 @@ function App() {
         <div className="profile-image">
           <img src={fotoperfil} alt="Imagem de perfil" />
         </div>
-        <p>Como você pode ver por esse lindo site, que eu não sou Front (risos), mas me chamo Pedro, tenho 19 anos, sou natural de Agudos - SP, faço Ciência da Computação e estou no meu 3° Ano.</p>
+        <p>Como você pode ver por esse lindo site, que eu não sou Front (risos), mas me chamo Pedro, tenho 20 anos, sou natural de Agudos - SP, faço Ciência da Computação e estou no meu 3° Ano.</p>
         <p>Estou usando esse site como uma forma de currículo para que eu possa treinar meus HTML, CSS e até mesmo React.</p>
       </div>
 
